@@ -85,6 +85,24 @@
     <Compile Include="PoiskCriterii.Designer.cs">
       <DependentUpon>PoiskCriterii.cs</DependentUpon>
     </Compile>
+    <Compile Include="PoiskFam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoiskFam.Designer.cs">
+      <DependentUpon>PoiskFam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoiskNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoiskNum.Designer.cs">
+      <DependentUpon>PoiskNum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoiskSquare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoiskSquare.Designer.cs">
+      <DependentUpon>PoiskSquare.cs</DependentUpon>
+    </Compile>
     <Compile Include="RMList.cs" />
     <Compile Include="Roomer.cs" />
     <Compile Include="SpisokZhilcov.cs">
@@ -112,6 +130,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PoiskCriterii.resx">
       <DependentUpon>PoiskCriterii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoiskFam.resx">
+      <DependentUpon>PoiskFam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoiskNum.resx">
+      <DependentUpon>PoiskNum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoiskSquare.resx">
+      <DependentUpon>PoiskSquare.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SpisokZhilcov.resx">
       <DependentUpon>SpisokZhilcov.cs</DependentUpon>
