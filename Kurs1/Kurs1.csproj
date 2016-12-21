@@ -52,6 +52,8 @@
     <Compile Include="GlavnoeMenu.Designer.cs">
       <DependentUpon>GlavnoeMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="RMList.cs" />
+    <Compile Include="Roomer.cs" />
     <Compile Include="Zastavka.cs">
       <SubType>Form</SubType>
     </Compile>

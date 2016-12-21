@@ -48,6 +48,7 @@
             this.button7.TabIndex = 13;
             this.button7.Text = "Открыть список из файла";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -60,6 +61,7 @@
             this.button6.TabIndex = 12;
             this.button6.Text = "Сохранить список жильцов в файл";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -72,6 +74,7 @@
             this.button5.TabIndex = 11;
             this.button5.Text = "Удалить список жильцов";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -84,6 +87,7 @@
             this.button4.TabIndex = 10;
             this.button4.Text = "Выход из программы";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -96,6 +100,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "Посмотреть информацию о задолжностях";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -108,6 +113,7 @@
             this.button2.TabIndex = 8;
             this.button2.Text = "Посмотреть список жильцов";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -120,6 +126,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Добавить информацию о жильце";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // GlavnoeMenu
             // 
