@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeSpisok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeSpisok.Designer.cs">
+      <DependentUpon>ChangeSpisok.cs</DependentUpon>
+    </Compile>
     <Compile Include="DobavlenieZhilca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,30 @@
     <Compile Include="SpisokZhilcov.Designer.cs">
       <DependentUpon>SpisokZhilcov.cs</DependentUpon>
     </Compile>
+    <Compile Include="UdalenieCriterii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UdalenieCriterii.Designer.cs">
+      <DependentUpon>UdalenieCriterii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UdalenieFam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UdalenieFam.Designer.cs">
+      <DependentUpon>UdalenieFam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UdalenieNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UdalenieNum.Designer.cs">
+      <DependentUpon>UdalenieNum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UdalenieSquare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UdalenieSquare.Designer.cs">
+      <DependentUpon>UdalenieSquare.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zastavka.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +149,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChangeSpisok.resx">
+      <DependentUpon>ChangeSpisok.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DobavlenieZhilca.resx">
       <DependentUpon>DobavlenieZhilca.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +175,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SpisokZhilcov.resx">
       <DependentUpon>SpisokZhilcov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UdalenieCriterii.resx">
+      <DependentUpon>UdalenieCriterii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UdalenieFam.resx">
+      <DependentUpon>UdalenieFam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UdalenieNum.resx">
+      <DependentUpon>UdalenieNum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UdalenieSquare.resx">
+      <DependentUpon>UdalenieSquare.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zastavka.resx">
       <DependentUpon>Zastavka.cs</DependentUpon>
